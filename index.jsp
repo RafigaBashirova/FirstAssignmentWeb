@@ -17,7 +17,7 @@
 		out.println("Please, have a breakfast!");
 	}else if(Integer.parseInt(clock) >= 12 && Integer.parseInt(clock) <= 16){
 		out.println("Please, have a lunch!");
-	}else if(Integer.parseInt(clock) >= 16){
+	}else if(Integer.parseInt(clock) > 16){
 		out.println("Please, have a dinner/supper!");
 	}
 	%>
